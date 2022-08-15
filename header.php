@@ -228,10 +228,10 @@ if(is_page(55)){
             // $message = $_POST['message'];
 
 
-$to = "efrain@insideoutfocus.com";
+$to = "rick@rickdodd.net";
             
-$headers = "From: info@insideoutfocus.com \r\n";
-$headers .= "Reply-To: info@insideoutfocus.com \r\n";
+$headers = "From: info@dallasjib.com \r\n";
+$headers .= "Reply-To: " . $userEmail . " \r\n";
 // $headers .= "CC: garrett@insideoutfocus.com\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
@@ -246,7 +246,7 @@ $body .= '<td>';
 $body .= '<table style="padding-top:20px;padding-bottom: 20px;margin:auto;">';
 $body .= '<tbody>';
 $body .= '<tr>';
-$body .= '<td style="text-align: center;"><img src="https://insideoutcreative.io/wp-content/uploads/2022/06/created-by-inside-out-creative-black.png" alt="Logo" width="200px" height="auto"/></td>';
+$body .= '<td style="text-align: center;"><img src="https://dallasjib.com/wp-content/uploads/2022/08/DallasJib-Logo.png" alt="Logo" width="200px" height="auto"/></td>';
 $body .= '</tr>';
 $body .= '</tbody>';
 $body .= '</table>';
